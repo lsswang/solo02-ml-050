@@ -1,0 +1,8 @@
+{
+  "ordinary_spectral":{"templates":[[1],[0],[0]],"spectrum":[[1.5,1.5],[0,0],[0,0]],"ridge":0.5},
+  "ordinary_score":{"onsets":[[1,0]],"request":{"pitches":[60],"voices":[[60,60]],"min_duration":1,"max_duration":2,"max_leap":12,"onset_weight":0.05,"note_cost":0.1,"motion_weight":0}},
+  "overlap":{"templates":[[1,0],[1,1],[0,1]],"spectrum":[[1],[2],[1]],"ridge":0.5},
+  "repeat":{"activations":[[1,1,1,1]],"onsets":[[1,0,1,0]],"request":{"pitches":[60],"voices":[[60,60]],"min_duration":2,"max_duration":4,"max_leap":12,"onset_weight":1,"note_cost":0.1,"motion_weight":0}},
+  "polyphony":{"activations":[[1,1],[1,1]],"onsets":[[1,0],[1,0]],"request":{"pitches":[60,64],"voices":[[60,64],[60,64]],"min_duration":2,"max_duration":2,"max_leap":12,"onset_weight":1,"note_cost":0.1,"motion_weight":0}},
+  "coupling":{"templates":[[1],[0],[0]],"spectrum_before":[[0.15,0.15],[0,0],[0,0]],"spectrum_after":[[1.5,1.5],[0,0],[0,0]],"ridge":0.5,"onsets":[[1,0]],"request":{"pitches":[60],"voices":[[60,60]],"min_duration":2,"max_duration":2,"max_leap":12,"onset_weight":0.05,"note_cost":0.1,"motion_weight":0}}
+}
