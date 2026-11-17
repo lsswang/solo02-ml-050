@@ -1,0 +1,308 @@
+{
+  "ordinary": {
+    "spectral": {
+      "status": "converged",
+      "converged": true,
+      "iterations": 10,
+      "objective": 0.46374898456539393,
+      "residual": 0.0,
+      "costs": {
+        "data": 0.24533856948938237,
+        "l1": 0.0,
+        "ridge": 0.21841041507601158,
+        "temporal": 0.0
+      },
+      "activations": [
+        [
+          0.603574,
+          0.603574
+        ],
+        [
+          0.269293,
+          0.269293
+        ]
+      ]
+    },
+    "score": {
+      "notes": [
+        {
+          "voice": 0,
+          "pitch": 60,
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "B": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "O": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "energy": 0.6093443410514061,
+      "energies": {
+        "occupancy": 0.4593443410514061,
+        "onset": 1.0,
+        "note_count": 1.0,
+        "motion": 0.0,
+        "total": 0.6093443410514061
+      },
+      "status": "optimal"
+    }
+  },
+  "harmonic_overlap": {
+    "spectral": {
+      "status": "converged",
+      "converged": true,
+      "iterations": 33,
+      "objective": 0.7027926709940361,
+      "residual": 7.771561172376096e-16,
+      "costs": {
+        "data": 0.16393890001085315,
+        "l1": 0.0,
+        "ridge": 0.4651248333967138,
+        "temporal": 0.0737289375864691
+      },
+      "activations": [
+        [
+          0.683853,
+          0.207303
+        ],
+        [
+          0.594069,
+          0.734347
+        ],
+        [
+          0.162097,
+          0.656819
+        ]
+      ]
+    },
+    "simultaneous_pitches_per_frame": [
+      3,
+      3
+    ]
+  },
+  "missing_frame": {
+    "spectral": {
+      "status": "converged",
+      "converged": true,
+      "iterations": 51,
+      "objective": 0.6826934701998847,
+      "residual": 2.220446049250313e-16,
+      "costs": {
+        "data": 0.09359580709411322,
+        "l1": 0.0,
+        "ridge": 0.5368914794894758,
+        "temporal": 0.05220618361629571
+      },
+      "activations": [
+        [
+          0.73456,
+          0.591035,
+          0.380835,
+          0.361052
+        ],
+        [
+          0.803301,
+          0.675882,
+          0.454358,
+          0.460013
+        ]
+      ]
+    },
+    "missing_frame_activations_finite": true
+  },
+  "temporal_coupling": {
+    "uncoupled": {
+      "status": "converged",
+      "converged": true,
+      "iterations": 1,
+      "objective": 0.7562583194675542,
+      "residual": 0.0,
+      "costs": {
+        "data": 0.2554291412537618,
+        "l1": 0.0,
+        "ridge": 0.5008291782137924,
+        "temporal": 0.0
+      },
+      "activations": [
+        [
+          0.998336,
+          0.099834,
+          0.998336
+        ]
+      ]
+    },
+    "coupled": {
+      "status": "converged",
+      "converged": true,
+      "iterations": 46,
+      "objective": 1.0796114335986728,
+      "residual": 2.220446049250313e-16,
+      "costs": {
+        "data": 0.643180154500474,
+        "l1": 0.0,
+        "ridge": 0.37167445750779476,
+        "temporal": 0.06475682159040402
+      },
+      "activations": [
+        [
+          0.758815,
+          0.578875,
+          0.758815
+        ]
+      ]
+    },
+    "middle_frame_activation": {
+      "uncoupled": 0.09983361064891846,
+      "coupled": 0.5788752612135389
+    }
+  },
+  "same_pitch_reattack": {
+    "notes": [
+      {
+        "voice": 0,
+        "pitch": 60,
+        "start": 0,
+        "end": 2
+      },
+      {
+        "voice": 0,
+        "pitch": 60,
+        "start": 2,
+        "end": 4
+      }
+    ],
+    "B": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "O": [
+      [
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    "energy": 0.2,
+    "energies": {
+      "occupancy": 0.0,
+      "onset": 0.0,
+      "note_count": 2.0,
+      "motion": 0.0,
+      "total": 0.2
+    },
+    "status": "optimal"
+  },
+  "two_voice_overlap": {
+    "notes": [
+      {
+        "voice": 0,
+        "pitch": 60,
+        "start": 0,
+        "end": 2
+      },
+      {
+        "voice": 1,
+        "pitch": 64,
+        "start": 0,
+        "end": 2
+      }
+    ],
+    "B": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "O": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "energy": 0.2,
+    "energies": {
+      "occupancy": 0.0,
+      "onset": 0.0,
+      "note_count": 2.0,
+      "motion": 0.0,
+      "total": 0.2
+    },
+    "status": "optimal"
+  },
+  "combined_evidence_change": {
+    "run_a": {
+      "spectral_status": "converged",
+      "notes": [
+        {
+          "voice": 0,
+          "pitch": 60,
+          "start": 0,
+          "end": 2
+        },
+        {
+          "voice": 0,
+          "pitch": 64,
+          "start": 2,
+          "end": 4
+        }
+      ],
+      "energy": 1.8307867710028647
+    },
+    "run_b": {
+      "spectral_status": "converged",
+      "notes": [
+        {
+          "voice": 0,
+          "pitch": 60,
+          "start": 0,
+          "end": 2
+        },
+        {
+          "voice": 0,
+          "pitch": 67,
+          "start": 2,
+          "end": 4
+        }
+      ],
+      "energy": 3.313351733015569
+    },
+    "frozen_old_schedule_under_current_evidence": {
+      "energy": 5.066230757669122,
+      "strictly_worse_than_current_optimum": true
+    }
+  },
+  "capped_spectral_run": {
+    "status": "iteration_limit",
+    "converged": false,
+    "objective_not_worse_than_initial": true
+  }
+}
